@@ -1,0 +1,16 @@
+IP,SITE_ID,REGION,BEHIND_FW,DESCRIPTION
+10.0.0.0/24,100,Asia,A,short description
+10.0.1.0/24,100,Asia,A,short description
+10.0.2.0/24,100,Asia,A,short description
+10.10.0.0/24,200,Afri,B,short description
+10.10.1.0/24,200,Afri,B,short description
+10.10.2.0/24,200,Afri,B,short description
+10.20.0.0/24,300,Europe,C,short description
+10.20.1.0/24,300,Europe,C,short description
+10.20.2.0/24,300,Europe,C,short description
+192.168.0.0/24,400,Amer,D,short description
+192.168.1.0/24,400,Amer,D,short description
+192.168.2.0/24,400,Amer,D,short description
+192.168.0.0/25,700,Ant,X,short description
+192.168.0.0/26,700,Ant,X,short description
+192.168.0.0/24,800,Ant,T,short description
