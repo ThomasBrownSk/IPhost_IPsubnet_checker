@@ -97,7 +97,6 @@ try:
                 print(f'{out_df}\n')
 
             not_found_table(not_found_list)
-            # TAB: Log
             
     window.close()
 
