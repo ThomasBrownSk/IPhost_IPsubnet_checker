@@ -60,7 +60,7 @@ tab_layout1 = [  [sg.Text('Input: ')],
             [sg.Output(size=(110, 20), font=('Helvetica 10'),  key='-OUTPUT-')] ]
 
 tab_layout2 = [[sg.Text('Log output')],
-            [sg.Multiline(size=(110, 20), enter_submits=True, key='-LOG-', do_not_clear=False)]]
+            [sg.Multiline(size=(110, 30), enter_submits=True, key='-LOG-', do_not_clear=False)]]
 
 layout = [[sg.TabGroup([[sg.Tab('Validation tool', tab_layout1), sg.Tab('Log', tab_layout2)]])]]
 
@@ -94,7 +94,6 @@ try:
             if out_df.empty:
                 pass
             else:
-                window['-LOG-'].update(out_df)
                 print(f'{out_df}\n')
 
             not_found_table(not_found_list)
