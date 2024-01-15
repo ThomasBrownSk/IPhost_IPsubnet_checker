@@ -12,3 +12,9 @@ Database is loaded from CSV file to pandas dataframe and for searching in record
 - check if IPv4 host or subnet is part of network stored in local database
 
 ![Screenshot](screenshot.png)
+
+
+## Notes
+
+- Log tab is currently not developed
+- some other small feature will by added in future
